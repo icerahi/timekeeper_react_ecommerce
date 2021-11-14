@@ -1,0 +1,20 @@
+.current {
+  color: #a99577;
+}
+
+#menu li {
+  margin: 0 10px;
+}
+#menu li a {
+  color: rgba(0, 0, 0, 0.774);
+}
+#menu li a:hover {
+  color: #a99577;
+}
+
+.displayName{
+  font-size:19px;
+  background: #f5f5f5b5;
+  padding:8px 20px;
+  border-radius: 25px;
+}

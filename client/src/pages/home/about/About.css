@@ -1,0 +1,8 @@
+.about-img{
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+#about{
+    background-image: url('https://cdn.shopify.com/s/files/1/0564/2705/3216/files/bg-2.png?v=1633506135');
+    background-position: center;
+}

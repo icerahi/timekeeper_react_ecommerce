@@ -1,0 +1,25 @@
+.regular-text {
+  color: #a99577;
+}
+body::-webkit-scrollbar {
+  width: 0 !important;
+}
+body {
+  overflow: -moz-scrollbars-none;
+}
+body {
+  -ms-overflow-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+@media only screen and (max-width: 600px) {
+  body::-webkit-scrollbar {
+    width: 0 !important;
+  }
+  body {
+    overflow: -moz-scrollbars-none;
+  }
+  body {
+    -ms-overflow-style: none;
+  }
+}

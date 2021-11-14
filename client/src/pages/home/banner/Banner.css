@@ -1,0 +1,42 @@
+.banner-title {
+  color: #a99577;
+}
+.banner-caption-block {
+  position: absolute;
+  top: 20%;
+  right: 50%;
+  font-family: "Times New Roman", Times, serif;
+}
+.banner-caption-block p {
+  letter-spacing: 3px;
+}
+.banner-caption-block h2 {
+  font-size: 6em;
+}
+.btn-regular {
+  border: 2px solid #a99577;
+  background-color: transparent;
+}
+.btn-regular:hover {
+  background-color: #a99577;
+}
+@media only screen and (max-width: 600px) {
+  .banner-caption-block {
+    display: flex;
+  }
+  .banner-caption-block div h2 {
+    font-size: 1em;
+    font-weight: 700;
+    background-color: black;
+  }
+  .banner-caption-block div button {
+    padding: 0px;
+    margin: 0px;
+    font-size: 5px;
+    height: 60%;
+    background-color: rgba(0, 0, 0, 0.418);
+    text-align: center;
+    border: 0px;
+  }
+ 
+}
