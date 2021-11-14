@@ -2,12 +2,11 @@
 
 **Time Keeper** is a full feature Online niche Product Application,That's contains lot's of feature like product ordering,customer reviewing,product ordering and also including admin and user dashboard with orders and product management. **Time Keeper.**
 
-## Tech Stack
-
 ## Live
 **Frontend** [Click](https://timekeeper-785db.web.app) or visit here: https://timekeeper-785db.web.app
 **Backend**: https://boiling-anchorage-40626.herokuapp.com
 
+## Tech Stack
 **Frontend:** Reactjs,React-Router-DOM,Firebase, ContextAPI, Bootstrap,React-Hook-Form,Axios,sweetalert
 **Backend:** Nodejs,Expressjs,Mongodb,Cors,Dotenv,
 
