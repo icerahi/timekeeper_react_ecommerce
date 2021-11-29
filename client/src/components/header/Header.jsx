@@ -25,10 +25,15 @@ const Header = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul id="menu" className="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li className="nav-item">
+                  <NavLink to="/products" activeClassName="activeClass" className="nav-link py-2 px-4 fs-6 fw-bold ">
+                    Products
+                  </NavLink>
+                </li>
             {user ? (
               <>
                 <li className="nav-item">
-                  <NavLink to="/dashboard" className="nav-link fw-bold ">
+                  <NavLink to="/dashboard" activeClassName="activeClass" className="nav-link py-2 px-4 fw-bold ">
                     Dashboard
                   </NavLink>
                 </li>
@@ -48,7 +53,7 @@ const Header = () => {
                 <NavLink
                   activeStyle={{ color: "#a99577" }}
                   to="/login"
-                  className="nav-link "
+                  className="nav-link fs-6 fw-bold  "
                 >
                   Login/Register
                 </NavLink>
