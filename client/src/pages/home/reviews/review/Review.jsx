@@ -1,11 +1,11 @@
-import userEvent from "@testing-library/user-event";
+import './Review.css'
 import React from "react";
 import ReactStars from "react-rating-stars-component";
 const Review = ({ review }) => {
   const { user, rating, note } = review;
   return (
     <div className="col">
-      <div className="card">
+      <div className="card h-100 review-card">
         <div className="card-body">
           <ReactStars
             count={5}

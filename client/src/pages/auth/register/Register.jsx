@@ -42,7 +42,7 @@ const Register = () => {
           <button
             className="btn btn-dark d-block mx-auto w-50  fs-5"
             type="submit"
-          ></button>
+          >{isLoading? <SingleSpinner/>:"Register" }</button>
 
           <p className="lead my-2">
             {" "}

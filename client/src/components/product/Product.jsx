@@ -25,8 +25,8 @@ const Product = ({product}) => {
               <div className="col-md-6">
                 <Link to={`/purchase/${_id}`}>
                   {" "}
-                  <button className="booknow-btn float-right  ms-auto py-2 px-3">
-                    Buy Now
+                  <button className="border-0 fw-light text-light bg-dark float-right  ms-auto py-2 px-3">
+                   <i className="fa fa-shopping-cart"></i> Buy Now
                   </button>
                 </Link>
               </div>

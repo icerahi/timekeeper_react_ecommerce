@@ -24,9 +24,12 @@ const Login = () => {
     <div className="container text-center my-5">
       <div style={{ height: "350px" }} className="card p-3 col-md-6 mx-auto">
         <h1 className="text-center">Login</h1>
-        <hr className="w-50 mx-auto" />
+ 
         <p className="text-center text-danger">{error && error}</p>
+        <small>Admin Login-   email: <span className="bg-dark text-white">admin@timekeeper.com </span> <br /> password: <span className="bg-dark text-white">123456</span> </small>
+
         <form onSubmit={handleSubmit(onSubmit)}>
+
           <input
             type="email"
             className="form-control mx-auto w-75 mb-2"
