@@ -8,7 +8,14 @@ import { initializeApp } from "firebase/app";
 //   messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
 //   appId: process.env.REACT_APP_FIREBASE_APP_ID,
 // };
-
+const firebaseConfig = {
+  apiKey: "AIzaSyDhDThQVQ-6XqkR3qvrIZGf6znGymVNTKM",
+  authDomain: "timekeeper-785db.firebaseapp.com",
+  projectId: "timekeeper-785db",
+  storageBucket: "timekeeper-785db.appspot.com",
+  messagingSenderId: "226049945699",
+  appId: "1:226049945699:web:a017ee2e8c726fcff3c856"
+};
 
 
 // Initialize Firebase

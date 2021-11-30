@@ -37,7 +37,7 @@ const Purchase = () => {
   useEffect(() => {
     const getData = async () => {
       await axios
-        .get(`http://localhost:5000/products/${id}`)
+        .get(`${domain}/products/${id}`)
         .then((res) => setProduct(res.data));
     };
     getData();
