@@ -5,7 +5,7 @@
 ## Live
 **Frontend** [Click](https://timekeeper-785db.web.app) or visit here: https://timekeeper-785db.web.app
 
-**Backend**: https://boiling-anchorage-40626.herokuapp.com
+**Backend**: https://timekeeper-gffv.onrender.com
 
 ## Tech Stack
 **Frontend:** Reactjs,React-Router-DOM,Firebase, ContextAPI, Bootstrap,React-Hook-Form,Axios,sweetalert
@@ -41,13 +41,13 @@
 Clone the project
 
 ```bash
-  git clone https://github.com/programming-hero-web-course-4/niche-website-client-side-icerahi
+  git clone https://github.com/icerahi/timekeeper_react_ecommerce.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd niche-website-client-side-icerahi
+  cd timekeeper_react_ecommerce/client
 ```
 
 Install dependencies
@@ -89,13 +89,13 @@ Start the server
 Clone the project
 
 ```bash
-  git clone https://github.com/programming-hero-web-course-4/niche-website-server-side-icerahi
+  git clone https://github.com/icerahi/timekeeper_react_ecommerce.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd niche-website-server-side-icerahi
+  cd timekeeper_react_ecommerce/server
 ```
 
 Install dependencies
