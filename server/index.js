@@ -3,7 +3,7 @@ const cors = require("cors");
 const { MongoClient } = require("mongodb");
 const ObjectId = require("mongodb").ObjectId;
 require("dotenv").config();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 8000;
 
 const app = express();
 
@@ -27,12 +27,21 @@ const run = async () => {
     // GET ALL PRODUCTS API
     app.get("/products", async (req, res) => {
       const size = parseInt(req.query?.size);
-      console.log(size);
+      const search= req.query?.search;
       if (size) {
         const cursor = productCollection.find({}).limit(size);
         const result = await cursor.toArray();
         res.send(result);
-      } else {
+      } 
+      if(search){
+ 
+        const query = {"$or":[{name:{$regex:search,$options:"i"}}]};
+        
+        const cursor= productCollection.find(query) 
+        const result = await cursor.toArray()
+        res.send(result)
+      }
+      else {
         const cursor = productCollection.find({});
         const result = await cursor.toArray();
         res.send(result);
